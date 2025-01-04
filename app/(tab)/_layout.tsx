@@ -3,16 +3,17 @@ import React from "react";
 import { Tabs } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
-import "../../global.css"
+import "../../global.css";
+import { cssInterop } from "nativewind";
+
 const _layout = () => {
-
-
   return (
     <Tabs
       screenOptions={{
         headerShown: false,
         tabBarShowLabel: true,
         tabBarActiveTintColor: "black",
+        tabBarHideOnKeyboard: true,
       }}
     >
       <Tabs.Screen

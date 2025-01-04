@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-primary: #EF4444;
+  --color-secondary: #F97316;
+  --color-success: #10B981;
+  /* Add more custom colors here */
+}
